@@ -1,0 +1,136 @@
+#question1
+# name = input("Enter a name: ")
+# age = int(input("enter a age: "))
+# print("Hello my name is : ",name)
+# print("and my age is : ",age)
+
+
+# #question1(again)
+# name = "NIKHIL"
+# age = 20
+# print("Name: ",name)
+# print("Age: ",age)
+
+#question2
+# name = "Nikhilraj"
+# name1 = "Pushparaj"
+# name2 = "srivalli"
+# age = 20
+# age1 = 30
+# age2 = 25
+# course = "Python with AIML"
+# course1 = "Actor"
+# course2 = "Actress"
+# print("details of  students: ","Name: ",name,"Age: ",age,"course: ",course)
+# print("details of actor: ","Name: ",name1,"Age: ",age1,"course: ",course1)
+# print("details of actress: ","Name: ",name2,"Age: ",age2,"course: ",course2)
+
+
+
+# # question3
+# a = 5
+# b = 10
+# print("sum: ",a+b)
+
+
+
+# #question3(again)
+# a = int(input("Enter first number"))
+# b = int(input("Enter second number"))
+# print("sum:",a+b)
+
+
+
+
+# #question4
+# x = 2.3
+# y = 4.3
+# print("multiply: ",x*y)
+
+
+
+
+# #question4(again)
+# x = float(input("Enter first number"))
+# y = float(input("Enter second number"))
+# print("multiply: ",x*y)
+
+
+
+
+# #question5
+# a = input("Enter a character: ")
+# print("ASCII value of",a,"is",ord(a))
+
+
+# #question6
+# a = int(input("Enter first number"))
+# b = int(input("Enter second number"))
+# c = a+b
+# print("sum => ",c)
+
+
+
+# #question6(again)
+# a = 6
+# b = 6
+# c = a+b
+# print("Sum => ",c)
+
+
+
+# #question7
+# a = int(input("Enter first num"))
+# b = int(input("Enter second num"))
+# c = a-b
+# print("Difference => ",c)
+
+
+
+# #question8
+# a = int(input("Enter first num"))
+# b = int(input("Enter second num"))
+# c = a*b
+# print("multi => ",c)
+
+
+
+# #question9
+# a = int(input("Enter first num"))
+# b = int(input("Enter second num"))
+# c = a/b
+# print("Division => ",c)
+
+
+
+
+#question10
+# a = int(input("Enter first num"))
+# b = int(input("Enter second num"))
+# c = a//b
+# print("Division => ",c)
+
+
+# #question10(again)
+# a = int(input("Enter first num"))
+# b = int(input("Enter second num"))
+# if a == 0:
+#     print("Answer = 0")
+# elif b == 0:
+#     print("Plz try again")
+# else:
+#     print("floored division is = ",a//b)
+
+
+
+#question11
+a = int(input("Enter first num"))
+b = int(input("Enter second num"))
+if a<b:
+    print("0")
+elif a == 0:
+    print("Answer = 0")
+elif b == 0:
+    print("not defined")
+else:
+    print("Remender is = ",a%b)
