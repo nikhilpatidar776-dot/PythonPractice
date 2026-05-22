@@ -8,7 +8,7 @@ number = int(input("Enter a number or type -1 to stop:"))
 
 while number != -1:
     if number > largest_number:
-        largest_number = number
+        largest_number = number 
     number = int(input("Enter a number or type -1 to stop:"))
 
 
