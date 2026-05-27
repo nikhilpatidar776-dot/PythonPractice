@@ -176,7 +176,7 @@ for expo in range(16):
 666666
 '''
 
-for temp in range(1,7):
-    print(str(temp)*temp)
+# for temp in range(1,7):
+#     print(str(temp)*temp)
 
 
