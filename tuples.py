@@ -180,13 +180,69 @@ print(tuple_5)'''
 
 
 
-pol_eng_dictionary = {"kwait": "flower"}
+# pol_eng_dictionary = {"kwait": "flower"}
 
-pol_eng_dictionary.update(
-    {
-        "gleba": "soil"
-    })
-print(pol_eng_dictionary)
+# pol_eng_dictionary.update(
+#     {
+#         "gleba": "soil"
+#     })
+# print(pol_eng_dictionary)
 
-pol_eng_dictionary.popitem()
-print(pol_eng_dictionary)
+# pol_eng_dictionary.popitem()
+# print(pol_eng_dictionary)
+
+
+# pol_eng_dictionary = {
+#     "zamek":"castle",
+#     "woda":"water",
+#     "gleba":"soil"
+# }
+
+# if "zamek1" in pol_eng_dictionary:
+#     print("Yes! zamek1 is present in the Dictionary")
+# else:
+#     print("No! zamek is not present in the Dictionary")
+
+
+# print(pol_eng_dictionary)
+# print(len(pol_eng_dictionary))
+
+# del pol_eng_dictionary["zamek"]
+# print(pol_eng_dictionary)
+# print(len(pol_eng_dictionary))
+
+# pol_eng_dictionary.clear()
+# print(pol_eng_dictionary)
+# print(len(pol_eng_dictionary))
+
+# del pol_eng_dictionary
+# print(pol_eng_dictionary)
+
+
+#           #Question#
+
+# students_score = {}
+
+# while True:
+#     name =  input("Enter the students name:")
+#     if name == "":
+#         break
+
+#     score = int(input(f"Enter {name}'s score:"))
+#     if score not in range(1,11):
+#         break
+#     if name in students_score:
+#         students_score[name] += (score,)
+#     else:
+#         students_score[name] = (score,)
+
+# print(students_score)
+
+# for name, mark in students_score.items():
+#     sum = 0
+#     for m in mark:
+#         sum += m
+#     print(name,"->",sum/len(mark))
+
+
+   
